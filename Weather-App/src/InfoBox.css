@@ -1,0 +1,12 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+#weather-icon{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* background-color: red;     */
+    left: 483px;
+    top: 317px;
+}

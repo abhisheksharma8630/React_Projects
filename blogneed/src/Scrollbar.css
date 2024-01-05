@@ -1,0 +1,26 @@
+/* scrollbar.css */
+
+/* Define custom scrollbar styles */
+/* For Webkit-based browsers (Google Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox does not support customizing scrollbar styles as extensively as Webkit-based browsers */
+  /* You can include basic styling for Firefox as well */
+  /* Change the colors and dimensions according to your preferences */
+  /* It may not look exactly the same as Webkit-based browsers */
+  /* For example: */
+  /* scrollbar-color: #888 #f1f1f1; */
+  /* scrollbar-width: thin; */
+  
